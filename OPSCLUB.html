@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="opsclub.css">
+    <title>OP's Club</title>
+</head>
+<body>
+    <div class="container">
+      
+        <div class="left">
+        </div>
+        <div class="middle">
+            <div class="mobo-box">
+                <div class="mobo">
+                   <div class="header">
+                       <label id="C-name">PLATOON</label>
+                       <hr>
+                       <div id="logo" class="logo">
+                           <svg width="26" height="27" viewBox="0 0 26 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.30625 6.72186H21.6396" stroke="#75D8CC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4.30625 13.4719H21.6396" stroke="#75D8CC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M4.30625 20.2219H21.6396" stroke="#75D8CC" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+                        </svg>
+                    </div>
+
+                   </div>
+                   <div class="hero">
+                       <div class="card" id="card1">
+                           <input type="text" placeholder="TYPE CODE" id="inputfield" autofocus maxlength="10">
+                       </div>
+                       <div class="card" id="card2">
+                        <header id="welcome">Welcome Team Dictator!</header>
+                        <label class="uids" id="uid1"></label>
+                        <label class="uids" id="uid2"></label>
+                        <label class="uids" id="uid3"></label>
+                        <label class="uids" id="uid4"></label>
+
+                        <h6>to Change member Contact <u>+7302728789</u></h6>
+                        </div> 
+                        <div class="card" id="card3">
+                            <img src="img\pp_840x830-pad_1000x1000_f8f8f8 1.png">
+                            <header>YOUR TEAM HAS BEEN REGISTERED</header>
+                            <div class="information">
+                                <p>
+                                    <h4>Total Matches:-3</h4>
+                                    </br>
+                                    1st Match :-  15 August ,10:00am
+                                    <br>
+                                    2nd Match :-  15 August ,6:00pm</br>
+                                    3rd Match :-  16 August ,6:00pm</br>
+                                </p>
+                            </div>
+                            <div class="utube">
+                                <svg width="54" height="28" viewBox="0 0 64 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <g clip-path="url(#clip0)">
+                                    <path d="M62.5863 5.92694C62.2192 4.78136 61.5031 3.73697 60.5094 2.89777C59.5156 2.05857 58.2789 1.45384 56.9223 1.1438C51.9558 0 31.9673 0 31.9673 0C31.9673 0 11.9778 0.0346221 7.0113 1.17842C5.65468 1.48848 4.41791 2.09324 3.42416 2.93248C2.43041 3.77172 1.71436 4.81616 1.3473 5.96178C-0.154946 13.4136 -0.737696 24.7684 1.38855 31.9221C1.75565 33.0677 2.47172 34.1121 3.46547 34.9513C4.45921 35.7905 5.69596 36.3952 7.05255 36.7053C12.0191 37.8491 32.0081 37.8491 32.0081 37.8491C32.0081 37.8491 51.9968 37.8491 56.9631 36.7053C58.3197 36.3952 59.5565 35.7905 60.5503 34.9513C61.5441 34.1121 62.2602 33.0677 62.6273 31.9221C64.2118 24.4598 64.7001 13.1121 62.5863 5.92716V5.92694Z" fill="#FF0000"/>
+                                    <path d="M25.605 27.0349L42.1872 18.9244L25.6052 10.8139L25.605 27.0349Z" fill="white"/>
+                                    </g>
+                                    <defs>
+                                    <clipPath id="clip0">
+                                    <rect width="64" height="38" fill="white"/>
+                                    </clipPath>
+                                    </defs>
+                                    </svg>
+                                    <h3>check detail video <a href="#">here</a></h3>
+                                    
+                            </div>
+                       </div>
+                    
+                   </div>
+                   <div class="footer">
+                       <a id="next" class="buttons" >NEXT</a>
+                       <a id="done" class="buttons" >DONE</a>
+                       <a id="ok" class="buttons"  target="#" >OK</a>
+                   </div>
+                </div>
+            </div>
+        </div>
+        <div class="right"></div>
+    </div>
+</body>
+    <script>
+        //about buttonns
+        var next=document.getElementById("next");
+        var done=document.getElementById("done");
+        var ok=document.getElementById("ok");
+
+        var x =document.getElementById("card1");
+        var y =document.getElementById("card2");
+        var z =document.getElementById("card3");
+      
+
+       
+        next.addEventListener("click", function()
+        {
+            x.style.display="none";
+            next.style.display="none";
+            done.style.display="flex";
+            var field =document.getElementById("inputfield").value;
+            if (field==="76X4Y0Z9")
+            {
+                document.getElementById("welcome").innerHTML="Welcome Team D4";
+                document.getElementById("uid1").innerHTML="2085284309";
+                document.getElementById("uid2").innerHTML="867511516";
+                document.getElementById("uid3").innerHTML="1087236126";
+                document.getElementById("uid4").innerHTML="2005145615";
+            }
+            else if (field==="7V4I200N")
+            {
+                document.getElementById("welcome").innerHTML="Welcome Black Heart";
+                document.getElementById("uid1").innerHTML="460966310";
+                document.getElementById("uid2").innerHTML="1221279196";
+                document.getElementById("uid3").innerHTML="null";
+                document.getElementById("uid4").innerHTML="null";
+            }
+            else if (field==="43AJS3OP")
+            {
+                document.getElementById("welcome").innerHTML="Welcome Brutual Gamers";
+                document.getElementById("uid1").innerHTML="null";
+                document.getElementById("uid2").innerHTML="null";
+                document.getElementById("uid3").innerHTML="null";
+                document.getElementById("uid4").innerHTML="null";
+            }
+            else if (field==="20V0I0N7")
+            {
+                document.getElementById("welcome").innerHTML="Welcome Boys Town";
+                document.getElementById("uid1").innerHTML="1666712070";
+                document.getElementById("uid2").innerHTML="403806188";
+                document.getElementById("uid3").innerHTML="925144501";
+                document.getElementById("uid4").innerHTML="189833636";
+            }
+            else if (field==="93lDS3OA")
+            {
+                document.getElementById("welcome").innerHTML="Welcome deadly Squad";
+                document.getElementById("uid1").innerHTML="756148926";
+                document.getElementById("uid2").innerHTML="989293210";
+                document.getElementById("uid3").innerHTML="682883965";
+                document.getElementById("uid4").innerHTML="null";
+            }
+            else if (field==="43ZJS3OZ")
+            {
+                document.getElementById("welcome").innerHTML="Welcome uk jokers";
+                document.getElementById("uid1").innerHTML="1567771376";
+                document.getElementById("uid2").innerHTML="565469924";
+                document.getElementById("uid3").innerHTML="2299179170";
+                document.getElementById("uid4").innerHTML="310612202";
+            }
+            else if (field==="Q78YH567")
+            {
+                document.getElementById("welcome").innerHTML="Welcome the fire";
+                document.getElementById("uid1").innerHTML="1587348587";
+                document.getElementById("uid2").innerHTML="2022854585";
+                document.getElementById("uid3").innerHTML="2315142307";
+                document.getElementById("uid4").innerHTML="1614750298";
+            }
+            else if (field==="HJKL745X")
+            {
+                document.getElementById("welcome").innerHTML="Welcome the villians";
+                document.getElementById("uid1").innerHTML="1025473437";
+                document.getElementById("uid2").innerHTML="2077332729";
+                document.getElementById("uid3").innerHTML="1511885296";
+                document.getElementById("uid4").innerHTML="651997347";
+            }
+            else if (field==="H5J22M5X")
+            {
+                document.getElementById("welcome").innerHTML="Welcome Death Squad ";
+                document.getElementById("uid1").innerHTML="470723290";
+                document.getElementById("uid2").innerHTML="951893228";
+                document.getElementById("uid3").innerHTML="735583258";
+                document.getElementById("uid4").innerHTML="658349587";
+            }
+            else if (field==="HJK906LX")
+            {
+                document.getElementById("welcome").innerHTML="Welcome Team op";
+                document.getElementById("uid1").innerHTML="null";
+                document.getElementById("uid2").innerHTML="null";
+                document.getElementById("uid3").innerHTML="null";
+                document.getElementById("uid4").innerHTML="null";
+            }
+            else if (field==="H896JKLX")
+            {
+                document.getElementById("welcome").innerHTML="Welcome destroyer";
+                document.getElementById("uid1").innerHTML="2226360103";
+                document.getElementById("uid2").innerHTML="759765052";
+                document.getElementById("uid3").innerHTML="1974672734";
+                document.getElementById("uid4").innerHTML="null";
+            }
+            else if (field==="Q78YH569")
+            {
+                document.getElementById("welcome").innerHTML="Welcome Team Ktr";
+                document.getElementById("uid1").innerHTML="1577723255";
+                document.getElementById("uid2").innerHTML="1194659969";
+                document.getElementById("uid3").innerHTML="1300013836";
+                document.getElementById("uid4").innerHTML="1678620416";
+            }
+            else
+            {
+                alert("please enter team code");
+                location.reload();
+            }
+        });
+        done.addEventListener("click", function()
+        {
+            y.style.display="none";
+            done.style.display="none";
+            ok.style.display="flex";
+            
+        });
+
+
+        //about menu burger
+
+        var logo = document.querySelector("#logo");
+        logo.addEventListener("click", function()
+        {
+            alert("Available Soon...  ");
+        });
+
+    </script>
+</html>
